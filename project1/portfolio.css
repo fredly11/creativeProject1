@@ -1,0 +1,134 @@
+
+
+body{
+
+}
+
+
+h1{
+font-family: garamond;
+text-align: center;
+padding: 5px;
+font-size: 40;
+}
+
+nav{
+    
+        text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+display: inline;
+}
+
+nav li a{
+    float: left;
+    display: inline-block;
+    color: grey;
+
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav li a:hover{
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+
+section {
+    display: flex;
+}
+
+article{
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: garamond;
+    font-size: 24;
+}
+
+article p{
+  margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.homepic {
+    display: block;
+    padding: 20px 100px;
+}
+
+img{
+ width: 100%;  
+ height: auto; 
+}
+
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.titlehead {
+
+    font-family: Garamond;
+    position: center;
+    text-align: center;
+    font-size: 60;
+}
+
+.grid1{
+    padding: 0px 80px;
+ display: grid;   
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-column-gap: 10px;
+ grid-row-gap: 10px;
+ margin-bottom: 50px;
+}
+
+.mepic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ width: 30%; 
+ height: 60%x;
+ margin-bottom: 50px;
+ text-align: center;
+}
+
+.form{
+ margin-top : 20px;
+ margin-bottom: 20px;
+}
+
+.project{
+ display: block;
+ background-color: #EEEFF2;
+ border-radius: 25px;
+ margin-left: 25%;
+ margin-right: 25%;
+ }
+
+.projectimage {
+padding: 0px 20px 0px 20px;
+}
+
+.projecttext {
+    font-size: 27;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 40px;
+}
